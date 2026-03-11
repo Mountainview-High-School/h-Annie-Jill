@@ -8,5 +8,5 @@ cursor.execute("SELECT first_name, last_name FROM student")
 students = cursor.fetchall()
 print("All students")
 for student in students:
-    print(student)
+    print(student)                                                                                                                                                                              
 connection.close()
